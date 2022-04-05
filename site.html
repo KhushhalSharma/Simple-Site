@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Site</title>
+    <link rel="stylesheet" href="./site.css">
+</head>
+
+<body>
+    <main id="home">
+        <img src="./logo.png" alt="" id="logo">
+        <div>
+            <h1>The purpose is to <br>teach,bring learning to <br>people</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum <br> dolor sit amet, consectetur
+                adipisicing elit. Unde, dolor vel!<br> Possimus, hic ea?</p>
+        </div>
+        <button>
+            read more
+
+        </button>
+        <nav id="sidenav">
+            <ul>
+                <li><a href="home">home</a></li>
+                <li><a href="section">Contact</a></li>
+                <li><a href="nav">Services</a></li>
+                <li><a href="navbar">Help</a></li>
+                <li><a href="menu">Bio</a></li>
+                <li><a href="footer">Sources</a></li>
+            </ul>
+        </nav>
+        <img src="./menu.png" alt="" id="menuBtn">
+
+
+    </main>
+    
+
+
+
+    <section id="section">
+        <img src="./about.png" alt="" width="641px">
+        <div>
+            <h1>about</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique libero mollitia cum! Consectetur rem
+                quod odit praesentium quisquam id, nisi cupiditate, laborum natus, ab recusandae veritatis velit? Iste,
+                quas necessitatibus!
+            </p>
+            <h1 style="    text-decoration: none;
+            font-size: 20px;
+            padding: 18px -9px;">"Learning is not attained by chance,it <br>must be sought for with ardor and
+                <br>atttended to with diligence"
+            </h1>
+            <p style="color: grey;"> --Abigail Admas</p>
+
+        </div>
+
+
+    </section>
+
+
+
+    <nav id="nav">
+        <div class="col">
+            <div>
+                <img src="./pic-1.png" alt="">
+                <h4>Learn Anywhere</h4>
+                <p>Choose what would you like to learn from our <br>extensive subscription library</p>
+            </div>
+            <div>
+                <img src="./pic-2.png" alt="">
+                <h4>Expert Teachers</h4>
+                <p>Choose what would you like to learn from our <br>extensive subscription library</p>
+            </div>
+            <div>
+                <img src="./pic-3.png" alt="">
+                <h4>Unlimited Access</h4>
+                <p>Choose what would you like to learn from our <br>extensive subscription library</p>
+            </div>
+        </div>
+        <button>Start Free Trail</button>
+
+    </nav>
+
+
+    <navbar id="navbar">
+        <div>
+            <h1>Browse our top <br>courses</h1>
+            <p id="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Accusamus eius voluptates
+                totam et quia! Consectetur <br> brinventore totam ipsa pariatur quis sed ut rem? <br> Voluptates minima
+                est provident ad maiores earum <br> cumque dolorem ducimus perferendis! In, est temporibus <br> aliquid,
+                quidem commodi aspernatur aliquam impedit molestiae.......
+            </p>
+            <button>View all courses</button>
+        </div>
+        <img src="./course.png" alt="">
+
+    </navbar>
+
+
+    <menu id="menu">
+        <div>
+            <h1>Sign Up to join our <br> learning community
+            </h1>
+            <form action="">
+                <div>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+
+                <div>
+                    <input type="email" placeholder="Enter your Email">
+                </div>
+
+                <div>
+                    <input type="password" placeholder="Enter your Password">
+                </div>
+
+                <div id="btn">
+                    <button> Sign Up</button>
+                    <button> Start For Free</button>
+                </div>
+            </form>
+        </div>
+        <img src="./contact.png" alt="">
+    </menu>
+
+
+    <footer id="footer">
+        <div class="div1">
+            <h1>About us</h1>
+            <p>Request a demo <br>FAQs</p>
+        </div>
+        <div class="div2">
+            <h1>Products</h1>
+            <p>Our plans <br>Free trails</p>
+        </div>
+        <div class="div3">
+            <h1>Support</h1>
+            <p>Features<br>Contact us</p>
+        </div>
+        <div class="div4">
+            <h1>About us</h1>
+            <p>Request a demo <br>FAQs</p>
+        </div>
+        <div class="div5">
+            <p>kushsharma1409@gmail.com</p>
+        </div>
+        <div class="div6">
+            <img src="./logo.png" alt="" width="104px">
+            <button>English</button>
+        </div>
+    </footer>
+
+    <div class="social">
+        <img src="./facebook.png" alt="">
+        <img src="./instagram.png" alt="">
+        <img src="./twitter.png" alt="">
+        <img src="./linkedin.png" alt="">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var sidenav = document.getElementById("sidenav");
+        var menuBtn = document.getElementById("menuBtn");
+
+
+        sidenav.style.right = "-250px";
+        menuBtn.addEventListener('click', function () {
+            if (sidenav.style.right == "-250px") {
+                sidenav.style.right = "0px"
+
+            } else {
+                sidenav.style.right = "-250px"
+
+            }
+        })
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
